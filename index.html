@@ -6,7 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <p>test123</p>
-    <p>test123</p>
+    <input type="text" class="text">
+    <input type="button" value="press"class="button">
+    <script>
+        let text = document.querySelector('.text')
+        let but = document.querySelector('.button')
+        but.addEventListener('click',()=>{
+            var newWindow = window.open('', 'New Window', 'width=400,height=300');
+            newWindow.document.write(text.value)
+        })
+    </script>
 </body>
 </html>
