@@ -1,2 +1,2 @@
 # MyFisrtRepository
-I'm learning to work on GitHub
+A thread from the light theme of the site
