@@ -2,12 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="text" class="text">
-    <input type="button" value="press"class="button">
+
+    <div class="backPanel">
+        <div class="panel">
+            <div class="up">
+                <input type="text" class="text">
+            </div>
+            <div class="down">
+                <input type="button" value="press"class="button">
+            </div>
+        </div>
+    </div>
+
     <script>
         let text = document.querySelector('.text')
         let but = document.querySelector('.button')
